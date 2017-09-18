@@ -45,7 +45,7 @@ def setar_tag(resource_id, nome):
 
 def main():
     
-    with(open('C:\\Users\\aquinto\\Desktop\\Quinto\\Projects\\Scripts\\nomes.json')) as configuracao:
+    with(open('nomes.json')) as configuracao:
         volumes = load(configuracao)
         
     for volume in volumes['Volumes']:
