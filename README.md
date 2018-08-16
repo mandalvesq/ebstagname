@@ -1,5 +1,9 @@
 
-# EBS Tag Name - Tag your volumes on AWS based on EC2 name.
+# EBS Tag Name
+
+Tag your volumes on AWS based on EC2 name.
+
+# What is it
 
 Function for Lambda in Python that takes the EC2 Tag name that volume is attached and puts on EBS Tag name.
 
